@@ -1,7 +1,7 @@
 class String
 
 	@@c = 0
-	@@library = ["cake", "bread", "soda", "beans"]
+	@@library = ["cakes", "bread", "sodas", "beans"]
 	@@random_split = @@library[rand(@@library.length)]
 
 	puts @@random_split
