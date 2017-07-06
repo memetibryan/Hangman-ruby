@@ -1,7 +1,7 @@
 class String
 
 	@@c = 0
-	@@library = ["meadow", "fraces", "meager", "pocket", "pocked"]
+	@@library = %w{meadow fraces meager pocket pocked}
 	@@random_split = @@library[rand(@@library.length)]
 	@@games = []
 
