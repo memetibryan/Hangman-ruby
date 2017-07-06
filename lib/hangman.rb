@@ -1,15 +1,13 @@
 class String
 
 	@@c = 0
-	@@library = ["brabble", "brabantine", "brace", "bracero", "brachiate"]
+	@@library = ["meadow", "fraces", "meager", "pocket", "pocked"]
 	@@random_split = @@library[rand(@@library.length)]
 	@@games = []
-	@@games_clone = @@games.first(5)
 
 	puts @@random_split
 
 	def player
-		@@games
 
 		input = self
 		char = split[0]
@@ -20,11 +18,11 @@ class String
 		end
 
 		if @@random_split.include?(first_char)
-			@@games.push (self)
+			@@games.push (input)
 
-			return @@games
+			return @@games.first(6)
 		else
-			return "Think harder!!!"
+			return "Try Again, Think Harder !!!"
 		end
 	end
 end
