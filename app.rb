@@ -9,5 +9,5 @@ require('sinatra')
 
   get('/gamers') do
     @gamers = params.fetch("count").player()
-    erb(:game)
+    erb(:index)
   end

@@ -1,12 +1,22 @@
 <h1><strong>Hangman!!</strong></h1>
-<p>Quess which is it between:</p>
-<ul>
-<li>brabble</li>
-<li>brabantine</li>
-<li>brace</li>
-<li>bracero</li>
-<li>brachiate</li>
-</ul>
+
+<div class="row">
+    <div class = "col-md-6">
+      <p>Quess which is it between:</p>
+      <ul>
+          <li>brabble</li>
+          <li>brabantine</li>
+          <li>brace</li>
+          <li>bracero</li>
+          <li>brachiate</li>
+      </ul>
+    </div>
+
+    <div class = "col-md-6">
+       <h1><%= @gamers %></h1>
+     </div>
+</div>
+
 <h3>Dont enter a letter twice.</h3>
 <h2>_ _ _ _ _</h2>
   <form action="/gamers">
